@@ -10,32 +10,57 @@
     <!-- Global Container -->
      <div class="flex items-center justify-center min-h-screen bg-cyan-50">
         <!-- card container -->
-        <div class="bg-white p-6 m-3 space-y-5 shadow-2xl rounded-3xl md:p-40">
+        <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
             <!-- Menu container -->
-            <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-0 md:mb-24 md:justify-end">
+            <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
                 <!-- Menu Items -->
                  <div class="group">
                     <a href="#">Vector</a>
-                    <div class="mx-2 mt-1 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
                     </div>
                  </div>
                  <div class="group">
                     <a href="#">Illustrations</a>
-                    <div class="mx-2 mt-1 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100 md:space-x-5">
                     </div>
                  </div>
                  <div class="group">
                     <a href="#">Images</a>
-                    <div class="mx-2 mt-1 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
                     </div>
                  </div>
                  <div class="group">
                     <a href="#">Icons</a>
-                    <div class="mx-2 mt-1 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
                     </div>
                  </div>
-                
             </div>
+
+            <!-- Search Container -->
+             <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+                <!-- Input and SVG Conatiner -->
+                <div class="flex justify-between border-b">
+                    <input type="text" class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none" placeholder="Search"/>
+                    <button class="py-3 px-14 text-lg font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:text-black hover:bg-white">
+                        Upload
+                    </button>
+                </div>
+
+                <!-- Gallery Container -->
+                 <div class="grid gap-4 md:grid-cols-3">
+                    <!-- Image 1 -->
+                     <div class="relaive group">
+                        <img src="images/image1.jpg" alt="" class="w-72"/>
+                        <div class="absolute bottom-0 left-0 right-0 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                            <div class="flex justify-between w-full">
+                                <div class="font-normal">
+                                     
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+             </div>
         </div>
      </div>
 </body>
